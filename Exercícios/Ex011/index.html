@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do navegador.</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzinho Áudio</h1><!--Melhores formatos de áudio para páginans HTML são .mp3 e .ogg pq não são pesados-->
+    <p>Aprendendo a reproduzir áudios em HTML5</p>
+    <ul>
+        <li>The Muffin Man</li>
+        <audio src="media/The Muffin Man - The Green Orbs.mp3" controls></audio>
+        <li>Smoked Kielbasa Polka</li>
+        <audio src="media/Smoked Kielbasa Polka - Doug Maxwell_Jimmy Fontanez.mp3" controls></audio> 
+    </ul>
+    <p>Uma pessoa intimada:</p>
+    <audio preload="metadata" controls loop>
+        <source src="media/audiopessoa.ogg" type="audio/ogg">
+    </audio>
+</body>
+</html>

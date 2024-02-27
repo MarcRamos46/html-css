@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faviconhtml.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(114, 42, 173);
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 3px 7px rgba(0, 0, 0, 0.507);
+        }
+        header > h1 {
+            text-align: center;
+            box-shadow: 5px 3px 5px 1px rgba(0, 0, 0, 0.467);
+            
+        }
+        nav {
+            background-color: rgb(102,102,102);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.349);
+            
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 3px 7px rgba(0, 0, 0, 0.507);
+
+        }
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: rgb(138, 37, 197);
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        article > a:visited {
+            color: darkred;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.338);
+        }
+        article > aside {
+            background-color: rgb(171, 160, 160);
+        }
+        #evangelho {
+            text-align: justify;
+            text-indent: 30px;
+        }
+        aside > p {
+            text-align: right;
+            font-style: italic;
+            font-size: small;
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 1px;
+            font-size: 0.8em;
+            
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            background-color: rgba(201, 198, 38, 0.911);
+            border-radius: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="https://www.tjpb.jus.br/" target="_blank">Tribunal de Justiça da PB</a>
+            <a href="https://padrepauloricardo.org/cursos" target="_blank">Padre Paulo Ricardo</a>
+            <a href="https://www.estudonauta.com/cursos/" target="_blank">Estudonauta</a>
+            <a href="https://www.youtube.com/@MundoFriends" target="_blank">Catequista por Amor</a>
+            <a href="https://www.youtube.com/@TaylorSwift" target="_blank">Canal Oficial da Taylor</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><strong>Apostolado</strong></p>
+            <p>"Estai sempre prontos a responder para vossa defesa,a todo aquele que vos pedir, a razão de vossa esperança."(I Pedro 3,15)</p>
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Evangelho do dia</h2>
+                <a href="https://padrepauloricardo.org/programas/homilia-diaria" target="_blank">Ouça ou leia a homilia de hoje</a>
+                <p id="evangelho">"Proclamação do santo Evangelho segundo Marcos – Naquele tempo, os discípulos se esqueceram de levar pães: só tinham um pão consigo na barca. Jesus lhes fez esta recomendação: “Atenção! Tomai cuidado com o fermento dos fariseus e com o fermento de Herodes”. E eles comentavam entre si, preocupados por não terem pão. Jesus percebeu a coisa e lhes perguntou: “Por que estais discutindo o fato de não terdes pão? Ainda não compreendeis nem entendeis? Estais ainda com o coração endurecido? Tendes olhos e não vedes, ouvidos e não ouvis? Já não vos lembrais, quando reparti cinco pães para os cinco mil, de quantos cestos recolhestes cheios de pedaços?” Responderam: “Doze”. “E quando reparti os sete pães para os quatro mil, quantos cestos recolhestes cheios de pedaços?” Responderam: “Sete”. Então lhes disse: “Ainda não compreendeis?” Mc 8,14-21.</p>
+                <aside>
+                    <p>Fonte: https://padrepauloricardo.org/programas/homilia-diaria</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Marcelo Ramos Correia em 12/02/2024 - Aula do curso HTML5 e CSS3</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>

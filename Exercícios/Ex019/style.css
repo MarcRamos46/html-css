@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(159, 236, 211, 0.867);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color:rgb(24, 116, 116); 
+}
+h1#mestre {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: rgb(61, 178, 232);
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+.basico {
+    color: rgb(195, 120, 28);
+}
+.intermediario {
+    color:rgb(158, 28, 28);
+}
+.avancado {
+    color:rgb(90, 130, 12);
+}
+.destaque {
+    background-color: rgba(223, 223, 171, 0.632);
+}

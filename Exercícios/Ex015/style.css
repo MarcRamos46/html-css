@@ -1,0 +1,21 @@
+@charset "UTF-8"; /*Regra*/
+/*Permite a compatibilidade com caracteres de acentuação*/
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+h1 {
+    color: maroon;
+    background-color: goldenrod;
+}
+
+h2 {
+    color: darkred;
+}
+
+p {
+    text-align: justify;
+}

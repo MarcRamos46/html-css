@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Trabalhando com responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px; /*largura das telas dos celulares antigos*/
+            max-width: 800px;
+            margin: auto;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deleniti, veritatis soluta maiores suscipit cum aut voluptas iste quaerat sit nam sunt repellat aliquam tempora commodi rerum consectetur non unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corporis, aut quisquam modi magni facere at officia a mollitia reiciendis possimus veniam ipsum sit optio quaerat. Incidunt maxime alias quas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nostrum eos earum ut dolor animi itaque suscipit doloremque ullam, exercitationem nesciunt repellat fugiat a fuga sequi aliquid laborum commodi nisi?</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat excepturi sit exercitationem facilis, placeat fugit, ipsum necessitatibus sint nihil velit consectetur accusamus hic, ab voluptatibus maxime iusto optio reprehenderit.lorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellendus quisquam natus adipisci optio est corrupti ullam, quae quaerat laborum cumque doloribus explicabo ducimus id impedit porro, facere, tempore dignissimos!</p>
+    </main>
+</body>
+</html>

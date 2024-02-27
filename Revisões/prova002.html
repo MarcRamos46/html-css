@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(197, 189, 189);
+            
+        }
+
+        header {
+            background-color: rgba(0, 255, 255, 0.363);
+            padding-left: 5px;
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.459);
+        }
+
+        header > p {
+            line-height: 1.5em;
+        }
+
+        header > nav {
+            font-size: 0.9em;
+            background-color: rgba(0, 255, 255, 0.363);
+            margin-left: -5px;
+        }
+
+        #teste {
+        
+            width: 350px;
+            height: 50px;
+            background-color: white;
+            padding: 2px;
+            text-align: left;
+            border: 5px solid red;/*shorhand: width style color*/
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.507); /*horizontal(h-offset), vertical(v-offset), espalhamento(blur), cor*/
+        }
+
+        main {
+            background-color: rgba(252, 165, 5, 0.452);
+            padding: 5px;
+            margin-top: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.479); /*horizontal(h-offset), vertical(v-offset), espalhamento(blur), cor*/
+        }
+
+        main p {
+            line-height: 1.5em;
+        }
+
+        main img {
+            display: block;
+            margin: auto;
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+            font-weight: bold; 
+            background-color: rgba(100, 223, 100, 0.603);        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="teste">Aqui é o HEADER</h1>
+        <p>O espaço da borda para dentro é o <strong>padding</strong>, que signifca <em>preenchimento</em>.</p>
+        <p>
+            A <strong>border</strong> é o espaço em vermelho que está contornando a caixa h1.
+            Da border para fora é a <strong>margin</strong>, sendo que uma parte desta margen está roxa, ou seja, a <strong>outline</strong>.
+        </p>
+            <nav>
+                <h2>Aqui é o NAV</h2>
+                <p><em>Onde geralmente ficam os menus das páginas e, geralmente, faz parte do Header(cabeçalho).</em></p>
+                <a href="#">Link1</a>
+                <a href="#">Link2</a> 
+                <a href="#">Outros links</a>   
+            </nav>
+        
+    </header>
+    <main>
+        <h1>Aqui é o MAIN</h1>
+        <section>
+            <p style="text-align: justify;"><strong>Preenchendo com lorem pra fazer volume:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident obcaecati dolor consequatur laboriosam magni ipsa labore inventore vel non laborum, doloribus perspiciatis qui, dignissimos reiciendis rem, deleniti praesentium debitis aliquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi libero fuga tempora error veniam aspernatur et quam cum possimus debitis. Error, aperiam! Odit similique animi provident ipsam rerum. Nesciunt, dicta? </p>
+            <p>Coloquei um style in-line pra treinar e ficar organizado</p>
+        </section>
+        <aside>
+            <p><strong>Uma foto minha só pra ficar mais bonito kkkkk</strong></p>
+            <img src="eu.png" alt="Marcelo Ramos">
+        </aside>
+
+    </main>
+    <footer>
+        <p>Aqui é o rodapé!</p>
+    </footer>
+</body>
+</html>
