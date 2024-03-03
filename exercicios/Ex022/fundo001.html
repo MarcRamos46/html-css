@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagem de fundo</title>
+    <style>
+        body {
+            background-image: url(imagens/wallpaper004.jpg);
+            font: 13pt Arial;
+        }
+        div {
+            display: inline-block;
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: bisque;
+            width: 300px;
+            height: 300px;
+        }
+
+        div#q1 {
+            background-color: skyblue;
+        }
+        
+        div#q2 {
+            background-image: linear-gradient(to top, yellow, red);
+        }
+
+        div#q3 {
+            background-image: url(imagens/rafa.png);
+        }
+
+        div#q4 {
+            background-image: url(imagens/pattern003.png);
+        }
+        div#q5 {
+            background-image: url(imagens/marcelo.png);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Preenchendo blocos div com cores ou imagens</h1>
+    <abbr title="background-color simples">
+        <div class="quadrado" id="q1"></div>
+    </abbr>
+
+
+    <abbr title="background-image com linear-gradient">
+        <div class="quadrado" id="q2"></div>
+    </abbr>
+
+    
+    <abbr title="background-image com inserção de imagens via url(caminho da imagem)">
+        <div class="quadrado" id="q3"></div>
+    </abbr>
+
+    <div class="quadrado" id="q4"></div>
+    <div class="quadrado" id="q5"></div>
+
+    <script>
+        let nome = window.prompt('Olá! Digite seu nome:') //para declarar uma variável podemos usar let ou var 
+        window.alert(nome +', bem vindo(a) ao meu site! Hoje veremos cores e imagens inseridas em blocos div.')
+    </script>
+</body>
+</html>
