@@ -1,5 +1,64 @@
 @charset "UTF-8";
 
-body {
-    background-color: #e8d330;
+* {margin: 0px; padding: 0px;}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray; 
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh; /*10% da altura da tela*/
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 25px;
+}
+
+section.normal {/*Posso colocar só a partir do .(classe)*/
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(59, 56, 56);
+    color: white;
+    
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(24, 23, 23, 0.658);
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
