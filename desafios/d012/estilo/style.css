@@ -53,20 +53,22 @@ section {
 }
 
 section.normal {/*Posso colocar só a partir do .(classe)*/
-    background-color: white;
+    background-color: rgba(213, 230, 240, 0.925);
     color: black;
 }
 
 section.imagem {
-    background-color: rgb(59, 56, 56);
+    /*background-color: rgb(59, 56, 56);*/
+    background-color: rgb(241, 222, 186);
     color: white;
     
 }
 
 section.imagem > p {
+    border-radius: 10px;
     display: inline-block; /*estilo que faz com que a caixa se adapte ao tamanho do texto*/
     padding: 5px;
-    background-color: rgba(24, 23, 23, 0.658);
+    background-color: rgba(24, 23, 23, 0.89);
 
 }
 
