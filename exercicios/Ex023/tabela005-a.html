@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            width: 600px;
+            border-collapse: collapse;
+
+        }
+        
+        caption {
+            font-size: 1.3em;
+            font-weight: lighter;
+            padding: 8px;
+            
+            
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .laranja {
+            background-color: rgba(255, 166, 0, 0.616);
+        }
+
+        .azul {
+            background-color: rgb(95, 237, 189);
+        }
+
+        #maria {
+            font-weight: bold;
+            background-color: pink;
+        
+        }
+        
+        .prof {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>5º exercício sobre tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="azul">
+            <col class="laranja" span="2">
+            <col class="azul">
+        </colgroup>
+        
+        <caption>Cadastro</caption>
+        
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+
+        </thead>
+        <!-------------------------------------------->
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td class="prof">Jornalista</td>
+            </tr>
+            <tr>
+                <td>Cláudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td class="prof">Programador</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td class="prof">Professor</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td class="prof">Vendedor</td>
+            </tr>
+            <tr id="maria">
+                <td>Maria Eugênia</td>
+                <td>F</td>
+                <td>46</td>
+                <td class="prof">Agente de Combate a Endemias</td>
+            </tr>
+            <tr>
+                <td>Marcelo Ramos</td>
+                <td>M</td>
+                <td>46</td>
+                <td class="prof">Oficial de Justiça</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td class="prof">Nutricionista</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
